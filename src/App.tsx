@@ -211,6 +211,7 @@ export default function App() {
                           </span>
                           <div>
                             <span className="font-mono-stat text-[13px] text-white/80 block uppercase font-semibold">Chiều dài tuyến</span>
+                            <span className="font-headline text-[21px] text-white font-extrabold drop-shadow-sm">Khoảng <Counter end={132} /> km</span>
                           </div>
                         </div>
                       </div>
@@ -263,6 +264,7 @@ export default function App() {
                           </span>
                           <div>
                             <span className="font-mono-stat text-[13px] text-white/80 block uppercase font-semibold">Chiều dài tuyến</span>
+                            <span className="font-headline text-[21px] text-white font-extrabold drop-shadow-sm">Khoảng <Counter end={119} /> km</span>
                           </div>
                         </div>
                       </div>
@@ -312,6 +314,7 @@ export default function App() {
                           </span>
                           <div>
                             <span className="font-mono-stat text-[13px] text-white/80 block uppercase font-semibold">Chiều dài tuyến</span>
+                            <span className="font-headline text-[21px] text-white font-extrabold drop-shadow-sm">Khoảng <Counter end={179.5} decimals={1} /> km</span>
                           </div>
                         </div>
                       </div>
