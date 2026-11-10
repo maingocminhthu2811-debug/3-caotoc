@@ -1,0 +1,213 @@
+---
+name: VietInfra Journalism
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#44474e'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#74777f'
+  outline-variant: '#c4c6cf'
+  surface-tint: '#495f82'
+  primary: '#001026'
+  on-primary: '#ffffff'
+  primary-container: '#0b2545'
+  on-primary-container: '#778db2'
+  inverse-primary: '#b1c7f0'
+  secondary: '#a73a00'
+  on-secondary: '#ffffff'
+  secondary-container: '#fd651e'
+  on-secondary-container: '#571a00'
+  tertiary: '#1b0d00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#372000'
+  on-tertiary-container: '#c47d00'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d5e3ff'
+  primary-fixed-dim: '#b1c7f0'
+  on-primary-fixed: '#001c3b'
+  on-primary-fixed-variant: '#314769'
+  secondary-fixed: '#ffdbce'
+  secondary-fixed-dim: '#ffb599'
+  on-secondary-fixed: '#370e00'
+  on-secondary-fixed-variant: '#7f2b00'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-stat:
+    fontFamily: Space Grotesk
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 52px
+  display-stat-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-xl:
+    fontFamily: Chivo
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+  headline-xl-mobile:
+    fontFamily: Chivo
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 34px
+  headline-lg:
+    fontFamily: Chivo
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: Chivo
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Chivo
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Public Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Public Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Public Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Space Grotesk
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+### Personality & Emotional Response
+The design system establishes an authoritative, institutional, yet dynamic visual language tailored for Vietnamese economic, macroeconomic, and transport infrastructure journalism. It balances the gravitas of official planning data with the readability of high-end data visualization. The interface inspires confidence, precision, national momentum, and analytical clarity.
+
+### Design Movement
+**Modern Data-Driven Editorial:** A synthesis of contemporary financial broadsheet layout, modern dashboard minimalism, and high-impact infographic presentation. It utilizes dense, well-structured information architectures, crisp micro-borders, atmospheric elevation, and oversized stat callouts to guide readers through complex infrastructure projects, capital allocations, and logistics networks.
+
+## Colors
+
+### Palette Philosophy
+- **Primary (`#0B2545` - Deep Institutional Navy):** Anchors the brand with institutional gravity, national scale, and regulatory authority. Used for prominent headers, navigation anchors, key chart baselines, and data axes.
+- **Secondary (`#EA580C` - Vibrant Infrastructure Orange):** Represents capital deployment, active construction sites, transit route milestones, and urgent focus points. Demands immediate attention without breaking journalistic decorum.
+- **Tertiary (`#F59E0B` - Amber Gold):** Denotes investment metrics, financing progress, secondary metrics, and status badges (e.g., in-progress feasibility studies, funding phases).
+- **Neutral (`#64748B` - Slate Grey):** Provides modern, neutral framing for data grids, subtle borders, unit indicators, and contextual metadata.
+- **Surfaces & Canvas:** Clean newsprint white (`#FFFFFF`) paired with soft slate-tinted canvas backdrops (`#F8FAFC`, `#F1F5F9`) to maintain high data legibility in daylight environments.
+
+## Typography
+
+### Structural Roles
+- **Headlines (Chivo):** A sharp, authoritative grotesque typeface built for contemporary news, infrastructure reports, and bold title cards. Handles Vietnamese diacritics with balanced vertical proportions.
+- **Body & Editorial (Public Sans):** A neutral, highly legible institutional typeface designed for public information, data tables, and narrative paragraphs.
+- **Labels, Metrics & Data Units (Space Grotesk):** Gives statistical data, VND currency notations, timeline milestones, and station coordinates an engineered, analytical aesthetic. Numbers must render tabular and unambiguous.
+
+## Layout & Spacing
+
+### Layout Model
+- **Grid Architecture:** Desktop and tablet layouts rely on a 12-column responsive fluid grid with 1.5rem gutters, allowing multi-metric stat comparison (e.g., 3-column financial breakdowns, 4-column logistics indicators, or 8/4 split editorial map layouts).
+- **Mobile Behavior:** Collapses into a 4-column flow with 1rem gutters and 1rem side margins. Multi-metric indicator rows switch to horizontal swipe cards or single-column stacked records to preserve readability of massive numbers.
+- **Data Densities:** Spacing between metrics, chart legends, and descriptive text follows strict mathematical multiples of 4px/8px to ensure information density feels orderly, authoritative, and clean.
+
+## Elevation & Depth
+
+### Atmospheric Restraint
+The system prioritizes sharp flat clarity over theatrical drop shadows, utilizing low-contrast hairline borders paired with diffused, navy-tinted ambient shadows.
+
+- **Base Layer (Ground):** Canvas sits at `#F8FAFC` to separate white newsprint cards from the page structure.
+- **Card Surfaces (Elevation 1):** Solid `#FFFFFF` enclosed by a 1px border of `#E2E8F0` with a subtle tinted shadow: `box-shadow: 0 1px 3px 0 rgba(11, 37, 69, 0.05), 0 1px 2px -1px rgba(11, 37, 69, 0.05)`.
+- **Interactive & Popover Cards (Elevation 2):** Applied to map tooltips, dynamic station markers, and interactive data legends: `box-shadow: 0 10px 15px -3px rgba(11, 37, 69, 0.08), 0 4px 6px -4px rgba(11, 37, 69, 0.04)`.
+- **Structural Dividers:** Hairline borders (`1px solid #E2E8F0` or `#CBD5E1`) are used between data rows rather than pure white gaps, recalling technical architectural blueprints and newsprint tables.
+
+## Shapes
+
+### Form Geometry
+The shape language uses subtle softening (`roundedness: 1`, 0.25rem / 4px base radius) to reflect precise engineering and structural blueprints.
+
+- **Data Cards & Panels:** Bound by 4px (`rounded`) or 8px (`rounded-lg`) corners. Cards avoid aggressive circularity to maintain a clean editorial cadence.
+- **Badges & Tags:** Kept slightly rounded (4px) or full-pill only when acting as status pills (e.g., "Äang thi cÃ´ng", "PhÃª duyá»‡t"), distinguishing state chips from content containers.
+- **Data Markers & Pinheads:** Circular or diamond geometry for geospatial markers, station hubs, and highway toll interchange nodes.
+
+## Components
+
+### 1. Stat Callout Cards (Tháº» Chá»‰ Sá»‘ Kinh Táº¿)
+- **Structure:** White card (`#FFFFFF`), 1px border (`#E2E8F0`), padding `space-md` to `space-lg`.
+- **Typography Hierarchy:** Small all-caps label (`label-sm`, `#64748B`), gigantic numeric indicator (`display-stat`, `#0B2545`), followed by unit badge and delta growth trend (`label-md` in `#EA580C` or `#16A34A`).
+- **Accent Indicator:** A 3px top border stripe in `#0B2545` (Neutral/Base), `#EA580C` (High Priority/Capital), or `#F59E0B` (Progress).
+
+### 2. Buttons & Action Links
+- **Primary Action (Xuáº¥t dá»¯ liá»‡u / Xem chi tiáº¿t):** Deep Navy background (`#0B2545`), text in `#FFFFFF`, font `Space Grotesk` medium, 4px border radius. Hover state transitions to `#1E3A8A`.
+- **Secondary Action (Lá»c dá»± Ã¡n / Báº£n Ä‘á»“):** Transparent background with a 1px border (`#CBD5E1`), text `#0B2545`. Hover background `#F1F5F9`.
+- **Accent Highlight:** Orange fill (`#EA580C`) reserved strictly for critical user flows, live data feeds, or breaking updates.
+
+### 3. Chips & Category Filters
+- **Categorical Chips:** Express sectors like "ÄÆ°á»ng bá»™ cao tá»‘c", "ÄÆ°á»ng sáº¯t Ä‘Ã´ thá»‹", "@n¨Û™ÈšxnàÛˆ‹’0è™ÈÚ0í™È‹‚‹H
+Š”İ[[™ÎŠŠˆ™]]˜[˜XÚÙÜ›İ[™
+ÑŒQQX
+K^ÍÍMMX˜Y]\ËˆXİ]™Hİ]HİÚ]Ú\ÈÈÌŒMXÚ]Üš\ÜÑ‘‘‘‘‘˜^‚‚ˆÈÈÈˆ[\˜Xİ]™H˜[œÜÜ	ˆ[™œ˜\İXİ\™H˜YÙ\Â‹H
+Š”İ]\È[™XØ]ÜœÎŠŠ‚ˆH
+±$0èÈğèˆ0èš
+ÛÛ\]Y
+NŠˆÛÙÜ™Y[ˆ[
+ÑÑÑMØ
+K^ÌMNÑ‚ˆH
+±$[™ÈÚxn¨ÚH™ğè›ˆÈHğí™È
+[ˆ›ÙÜ™\ÜÊNŠˆ[X™\ˆ[
+Ñ‘QŒĞÍØ
+K^ĞLÌX‚ˆH
+”]^Hª6‚G.¸ÖærI¸6Ò…&–÷&—G’fö7W2“¢¢÷&ævRF–çB†4ddTDCV’ÂFW‡B43#C6à¢Ò¢¤vVöÖWG'“¢¢¢G‚FF–ærv—F‚Æ&VÂ×6ÖÖöæ÷76VB7G–Æ–ærà ¢222RâFFF&ÆW2b&÷WFRF–ÖVÆ–æW0¢Ò¢¥F&ÆR†VFW'3¢¢¢&6¶w&÷VæB4c„dd6ÂWW&66R76Rw&÷FW6¶FW‡B–â3cCsC„&Â&÷GFöÒ&÷&FW"'‚6öÆ–B4S$S„cà¢Ò¢¥F–ÖVÆ–æRæöFW3¢¢¢Æ–æV"G&6²–â4S$S„cv—F‚6öÆ–B4TSƒ66—&7VÆ"Ö–ÆW7FöæRæöFW2FVæ÷F–ær¶W’6ö×ÆWF–öâFFW2†RærâÂFŒ;Fær†R¾»’F‡^ª×BÂ,:âv–òŞ«wB.«ær’à ¢222bâ–6öæöw&‡’wV–FVÆ–æW0¢Ò¢¥f—7VÂFöæS¢¢¢ãW‚7G&ö¶RvV–v‡BÂ6†'–çFW'6V7F–öç2ÂFV6†æ–6ÂÆ–æR'BÖF6†–ær6†—föæB76Rw&÷FW6¶à¢Ò¢¤6÷&RFöÖ–â7–Ö&öÇ3¢¢¢W‡&W77v—2Â'&–FvW2Â6V6öçF–æW'2ÂÖWG&ò&–Ç2Â—'÷'G2ÂæBÖöæWF'’W†6†ævRvÇ—‡2…däBò&–ÆÆ–öç2’â&VæFW&VB–â3##SCV÷"4TSƒ6

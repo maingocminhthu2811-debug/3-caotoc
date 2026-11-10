@@ -1,0 +1,6 @@
+{
+  "name": "VietInfra - Báo Cáo Cao Tốc Mới Việt Nam",
+  "description": "Infographic báo cáo tổng quan quy mô, tổng vốn đầu tư và lộ trình tiến độ 3 dự án cao tốc mới tại Việt Nam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
